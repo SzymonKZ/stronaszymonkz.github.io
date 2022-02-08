@@ -1,0 +1,49 @@
+.toptext {
+    position: relative;
+    left: -1500px;
+    animation: toptext;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+}
+@keyframes toptext{
+    from {left: -1500px;}
+    to {left: 0;}
+}
+.col-3{
+    position: relative;
+    animation: col3;
+    animation-duration: 1.5s;
+}
+@keyframes col3{
+    from{left: 1500px}
+    to{left: 0}
+}
+
+#letur > div > article > h1, 
+#letur > div > article > h2, 
+#letur > div > article > h3, 
+#letur > div > article > h4, 
+#letur > div > article > h5, 
+#letur > div > article > h6,
+.toptext > h1 {
+    animation: fyrirsogn;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes fyrirsogn{
+    0%{color: black;}
+    50%{color: rgb(0, 155, 129);}
+    100%{color: black;}
+}
+
+.cap{
+    position: relative;
+    animation: caption;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes caption{
+    0%{left: -200px;}
+    50%{left: 200px;}
+    100%{left: -200px;}
+}
